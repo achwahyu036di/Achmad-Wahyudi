@@ -1,4 +1,4 @@
-# NOTASI ALGORITMA PSEUDO CODE
+#NOTASI ALGORITMA PSEUDO CODE
 
 ## CASE 1
 Menghitung Nilai Rata-rata Siswa
@@ -12,6 +12,7 @@ Jika nilai rata-rata yang dihasilkan lebih besar dari 75, maka menjadi Juara II.
 Jika nilai rata-rata yang dihasilkan lebih besar dari 65, maka menjadi Juara III.
 Selain itu tidak juara.
 Tampilan yang diinginkan sebagai berikut:
+
 Layar Masukkan
 
 PROGRAM HITUNG NILAI RATA-RATA

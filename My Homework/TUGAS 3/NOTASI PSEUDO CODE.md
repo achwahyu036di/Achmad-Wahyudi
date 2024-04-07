@@ -1,4 +1,4 @@
-#NOTASI ALGORITMA PSEUDO CODE
+# NOTASI ALGORITMA PSEUDO CODE
 
 ## CASE 1
 Menghitung Nilai Rata-rata Siswa

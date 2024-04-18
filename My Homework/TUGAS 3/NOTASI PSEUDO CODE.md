@@ -133,7 +133,7 @@ Selain itu TunjanganGolongan = 0
 ```
 Jika Pendidikan = SMA maka TunjanganPendidikan = Gaji * 0.025
 ```
-  **_IF'ELSE_**
+  **_ELSE'IF_**
 ```
 Jika Pendidikan = D1 maka TunjanganPendidikan = Gaji * 0.05
 Jika Pendidikan = D3 maka TunjanganPendidikan = Gaji * 0.2

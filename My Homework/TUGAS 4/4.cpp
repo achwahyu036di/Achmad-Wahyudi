@@ -4,16 +4,16 @@
 using namespace std;
 
 int main() {
-    int y,z;
+    int d, e;
     int sum;
-    int input;
-    for(y = 1; y <= 9; y += 2) {
+
+    for(d = 1; d <= 9; d += 2) {
         sum = 1;
-	    for(z = 1; z <= y; z += 2) {
-            if(z != 1)
+	    for(e = 1; e <= d; e += 2) {
+            if(e != 1)
             cout << " * "; 
-            cout << z;
-   	        sum = sum * z;
+            cout << e;
+   	        sum = sum * e;
             } cout << " = " << sum << endl;
    }
 

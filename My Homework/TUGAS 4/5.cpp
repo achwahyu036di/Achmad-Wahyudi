@@ -4,8 +4,7 @@ using namespace std;
 
 int main(int argc, const char *argv[])
 {
-    int k, l;
-    int n;
+    int k, l, m, n;
     
     for(k =0; k < 5; puts(""), ++k)
     {
@@ -19,7 +18,7 @@ int main(int argc, const char *argv[])
                 printf("%d ",2 * l);
             }
         }
-        for (int m = 0; m <= k; m++) printf("");
+        for (m = 0; m <= k; m++) printf("");
         printf("= %d",n);
         
     }

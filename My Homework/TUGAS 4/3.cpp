@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     int y,z;
     int sum;
-    int input;
+
     for(y = 2; y <= 10; y += 2) {
         sum = 0;
 	      for(z = 2; z <= y; z += 2) {

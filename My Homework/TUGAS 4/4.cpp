@@ -1,30 +1,21 @@
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 
 int main() {
-  // Deklarasi variabel
-  int baris, total = 1, ganjil;
+    int y,z;
+    int sum;
+    int input;
+    for(y = 1; y <= 9; y += 2) {
+        sum = 1;
+	    for(z = 1; z <= y; z += 2) {
+            if(z != 1)
+            cout << " * "; 
+            cout << z;
+   	        sum = sum * z;
+            } cout << " = " << sum << endl;
+   }
 
-  // Meminta input jumlah baris
-  cout << "Masukkan jumlah baris: ";
-  cin >> baris;
-
-  // Perulangan untuk setiap baris
-  for (int i = 1; i <= baris; i++) {
-    // Menginisialisasi variabel ganjil
-    ganjil = 1;
-
-    // Menghitung dan menampilkan perkalian deret bilangan ganjil
-    for (int j = 1; j <= i; j++) {
-      cout << ganjil << " ";
-      total *= ganjil;
-      ganjil += 2;
-    }
-
-    cout << "= " << total << endl;
-    total = 1; // Reset total untuk baris berikutnya
-  }
-
-  return 0;
+return 0;
 }
